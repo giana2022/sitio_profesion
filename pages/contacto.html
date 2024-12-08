@@ -56,16 +56,21 @@
         <main class="contenido">
             <div class="r">    
                 <h2>Contáctame</h2>
-                    <form class="form-container" action="https://formspree.io/f/mbljedrg" method="POST" enctype="text/plain">
-
-                            <label for="name">Nombre:</label><br>
+                    <form class="form-container" action="https://formspree.io/f/mbljedrg" method="POST" >
+                            <label for="name">Nombre y Apellido</label>
                             <input type="text" id="name" name="name" required>
-
-                            <label for="email">Correo electrónico:</label><br>
-                            <input type="email" id="email" name="email" required>
-            
-                            <label for="message">Mensaje:</label><br>
-                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <label for="number-phone">Número de teléfono</label>
+                            <input type="number" name="number-phone" id="">
+                            <label>
+                                Tu mail:
+                                <input type="email" name="email" required>
+                            </label>
+                            <label>
+                               Tu message:
+                                <textarea name="message" rows="7" cols="50" required></textarea>
+                            </label>
+                              <!-- your other form fields go here -->
+                              
                        
                         <button type="submit" class="send_mail">Enviar</button>
                     </form>  
