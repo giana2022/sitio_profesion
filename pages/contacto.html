@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!--Styles-->
+        <link rel="stylesheet" href="../css/styles2.css" />
+        <link rel="stylesheet" href="../css/contact_form.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <!--Title-->
+        <title>Giana A. Carta - Abogada</title>
+        <!--Icon-->
+        <link rel="shortcut icon" href="img/libra-2754246_1280.ico" type="image/x-icon">
+        <!--Animation-->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+    </head>
+    <body>
+        <header class="header">
+            <nav class="navbar">
+                <h1 class="logo"><img src="../img/libra.png" alt=""><p class="titulo-index">Giana A. Carta - Abogada</p></h1>
+
+                <label class="labe_hamburguesa" for="menu_hamburguesa">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="35"
+                        height="35"
+                        fill="currentColor"
+                        class="list_icon"
+                        viewBox="0 0 16 16"
+                    >
+                        <path
+                            fill-rule="evenodd"
+                            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+                        />
+                    </svg>
+                </label>
+
+                <input class="menu_hamburguesa" type="checkbox" name="" id="menu_hamburguesa">
+
+                <ul class="ul_links">
+                    <li class="li_links">
+                        <a href="../index.html" class="link">Inicio</a>
+                    </li>
+                    <li class="li_links">
+                        <a href="sobre_mi.html" class="link">Sobre mi</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main class="contenido">
+            <div class="r">    
+                <h2>Contáctame</h2>
+                    <form class="form-container" action="https://formsubmit.co/e74be52013adcdb7b6e022370481a83e" method="post" enctype="text/plain">
+                        <div class="form-group">
+                            <label for="name">Nombre:</label><br>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo electrónico:</label><br>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje:</label><br>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div><br>
+                        <button type="submit" class="send_mail">Enviar</button>
+                    </form>  
+            </div>
+        </main>
+        <footer>
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h4>Estudio Jurídico Giana A. Carta</h4>
+                    <p>Calidad y confianza en los asesoramientos.</p>
+                    <p>A tu disposición.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Penal</a></li>
+                        <li><a href="#services">Civil</a></li>
+                        <li><a href="#services">Administrativo</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contáctame</h4>
+                    <p>Email: gianacarta@gmail.com</p>
+                    <p>Phone: (03388) 15678860</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Giana Andrea Carta, Abogada. Todos los derechos reservados.</p>
+            </div>
+        </footer>
+        <script src="../js/script_index.js"></script>
+    </body>
+</html>

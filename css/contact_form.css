@@ -1,0 +1,64 @@
+body {
+    background-image: url('../img/00-CONEXIONES-III-justicia_INED21.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.r {
+    background-color: rgba(31, 41, 48, 0.7);
+    padding: 5%;
+    color: antiquewhite;
+    position: relative;
+    border-radius: 15px;
+}
+
+.contenido {
+    position: relative;
+    display: flex;
+    align-items: center; /* Centrará el contenido verticalmente */
+    justify-content: center; /* Centrará el contenido horizontalmente */
+    padding-top: 10%;
+    padding-bottom: 25%;
+    top: 30%;
+}
+
+
+.form-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+}
+
+input, textarea{
+    position: relative;
+    width: 100%;
+}
+
+.send_mail {
+    background-color: #0f0a47;
+    color: antiquewhite;
+    border:initial;
+    border-radius: 7px;
+    padding: 2%;
+    transition: 0.3s ease-out;
+}
+.send_mail:hover{
+    background-color: #2519a5;
+
+}
+@media (max-width:874px){
+    .contenido{
+        margin: 20%;
+    }
+}
+
+@media (max-width:394px){
+    .contenido{
+        margin: 30%;
+    }
+}
+

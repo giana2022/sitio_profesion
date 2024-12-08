@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!--Styles-->
+        <link rel="stylesheet" href="css/styles2.css" />
+        <link rel="stylesheet" href="css\carrousel.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <!--Title-->
+        <title>Giana A. Carta - Abogada</title>
+        <!--Icon-->
+        <link rel="shortcut icon" href="img/libra-2754246_1280.ico" type="image/x-icon">
+        <!--Animation-->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+    </head>
+    <body>
+        <header class="header">
+            <nav class="navbar">
+                <h1 class="logo"><img src="img/libra.png" alt=""><p class="titulo-index">Giana A. Carta - Abogada</p></h1>
+
+                <label class="labe_hamburguesa" for="menu_hamburguesa">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="35"
+                        height="35"
+                        fill="currentColor"
+                        class="list_icon"
+                        viewBox="0 0 16 16"
+                    >
+                        <path
+                            fill-rule="evenodd"
+                            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+                        />
+                    </svg>
+                </label>
+
+                <input class="menu_hamburguesa" type="checkbox" name="" id="menu_hamburguesa">
+
+                <ul class="ul_links">
+                    <li class="li_links">
+                        <a href="pages/sobre_mi.html" class="link">Sobre mi</a>
+                    </li>
+                    <li class="li_links">
+                        <a href="pages/contacto.html" class="link">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main class="contenido">
+            <section class="carrousel-entrada">
+                                
+                <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="img\figure-justice-holding-scales-sword.jpg" style="width:100%;">
+                <div class="text">Tenemos la mejor disponibilidad horaria</div>
+                </div>
+
+                <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="img\right-4926156.jpg" style="width:100%;">
+                <div class="text">Utilizamos la última tecnología</div>
+                </div>
+
+                <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="img\justice.jpg" style="width:100%;">
+                <div class="text">Estamos actualizados en las diversas ramas</div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+
+                </div>
+                <br>
+
+                <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+                </div>
+
+            </section>
+            <section class="sobre-mi">
+                <h2 class="pfo-sobre-mi1">Calidad y confianza</h2>
+                <p class="pfo-sobre-mi2">Desde el primer contacto, me aseguro de que cada cliente se sienta valorado y comprendido. Mi enfoque centrado en la transparencia significa que siempre mantengo una comunicación clara y honesta, proporcionando un entendimiento completo de cada paso del proceso legal.</p>
+            </section>
+            <section class="articulos">
+                <h2>Artículos de interés</h2>
+                <div class="container">
+                    <div class="card">
+                        <img src="img\cards\Law1.jpg" alt="">
+                        <h4>Penal</h4>
+                        <p>Ingresa aquí para saber más sobre los distintos tópicos de los casos penales</p>
+                        <a href="#">Leer tema</a>
+                    </div>
+                    <div class="card">
+                        <img src="img\cards\Law2.jpg" alt="">
+                        <h4>Laboral</h4>
+                        <p>Ingresa para saber sobre tus derechos laborales</p>
+                        <a href="#">Leer tema</a>
+                    </div>
+                    <div class="card">
+                        <img src="img\cards\Law3.jpg" alt="">
+                        <h4>Contratos</h4>
+                        <p>Ingresa para saber sobre contratos</p>
+                        <a href="#">Leer tema</a>
+                    </div>
+                </div>
+            </section>
+            <section class="servicios">
+                <div class="hero-image">
+                    <div class="hero-text">
+                      <h2 style="font-size:50px">Servicios</h2>
+                      <h3>Me dedico a las ramas del derecho: Civil, Familia, Penal, Administrativo, Laboral y Comercial</h3>
+                      <button class="hero-button"><a href="pages/contacto.html">Contrátame</a></button>
+                    </div>
+                  </div>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h4>Estudio Jurídico Giana A. Carta</h4>
+                    <p>Calidad y confianza en los asesoramientos.</p>
+                    <p>A tu disposición.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Penal</a></li>
+                        <li><a href="#services">Laboral</a></li>
+                        <li><a href="#services">Contratos/a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contáctame</h4>
+                    <p>Email: gianacarta@gmail.com</p>
+                    <p>Phone: (03388) 15678860</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Giana Andrea Carta, Abogada. Todos los derechos reservados.</p>
+            </div>
+        </footer>
+        <script src="js\script_index.js"></script>
+    </body>
+</html>
