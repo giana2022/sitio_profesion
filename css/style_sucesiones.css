@@ -4,7 +4,7 @@ body {
   min-width: 37vh;
 }
 .contenido {
-    padding: 20% 20% 15%;
+    padding: 20% 20% 10%;
     min-height: 85vh;
     background-color: rgba(31, 41, 48, 0.40);
 }
@@ -49,5 +49,8 @@ body {
     .contenido {
       padding: 30% 20% 15%;
       min-height: 85vh;
+  }
+  body{
+    min-width: 40vh;
   }
   }
