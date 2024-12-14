@@ -1,6 +1,12 @@
+body {
+  background-image: url('../img/justiciaretributivayrestaurativa.jpeg');
+  background-size: cover;
+  min-width: 37vh;
+}
 .contenido {
     padding: 20% 20% 15%;
     min-height: 85vh;
+    background-color: rgba(31, 41, 48, 0.40);
 }
 .accordion {
     background-color: #eee;
@@ -37,4 +43,11 @@
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+  }
+
+  @media (max-width: 650px) {
+    .contenido {
+      padding: 30% 20% 15%;
+      min-height: 85vh;
+  }
   }
