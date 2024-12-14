@@ -160,6 +160,14 @@ ol,ul{
     }
 }
 
+@media (max-width:350px){
+   body {
+    min-height: 135vh;
+    min-width: 67vh;
+   }
+}
+
+
 
 /*      Sobre mí       */
 .sobre-mi {
