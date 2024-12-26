@@ -3,6 +3,10 @@ body {
   background-size: cover;
   min-width: 37vh;
 }
+.preg-title{
+  background-color: #eee;
+  padding: 10px 20px;
+}
 .contenido {
     padding: 20% 20% 10%;
     min-height: 85vh;
@@ -37,6 +41,9 @@ body {
     content: "\2212";
   }
   
+  .panel p{
+    padding: 0.5%;
+  }
   .panel {
     padding: 0 18px;
     background-color: white;
@@ -44,7 +51,9 @@ body {
     overflow: hidden;
     transition: max-height 0.2s ease-out;
   }
-
+.acordeon {
+  text-align: justify;
+}
   @media (max-width: 650px) {
     .contenido {
       padding: 30% 20% 15%;
@@ -54,3 +63,5 @@ body {
     min-width: 40vh;
   }
   }
+
+  
